@@ -84,6 +84,7 @@ label2=ctk.CTkLabel(frame,
                     font=('Montserrat', 13))
 label2.grid(row=1,column=0,padx=10,pady=10)
 
+
 entry2=ctk.CTkEntry(frame)
 entry2.grid(row=1,column=1)
 

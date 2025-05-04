@@ -1,5 +1,5 @@
 import customtkinter as ctk
-
+import screeninfo
 root = ctk.CTk()
 ctk.set_appearance_mode("dark")
 

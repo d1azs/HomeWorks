@@ -13,7 +13,6 @@ def calc(key):
             history_list.append(f'{current_text} = {result}')
         except Exception as e:
             print(f'Error: {e}')
-
     elif key == "C":
         entry1.delete(0, 'end')
     elif key == "⌫":
@@ -86,7 +85,6 @@ btn1=ctk.CTkButton(root,height=20,
                    fg_color = "purple3",
                    hover_color = "purple4",
                    command=history)
-
 btn1.place(x=345, y=0)
 entry_frame = ctk.CTkFrame(root, fg_color="black")
 entry_frame.pack(pady=20)
